@@ -11,3 +11,6 @@ html,body{
 padding: 5px 10px;
 border: none;
 }
+input{
+    border: none;
+}
