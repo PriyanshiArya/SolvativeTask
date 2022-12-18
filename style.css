@@ -10,6 +10,7 @@ html,body{
 .number-btn{
 padding: 5px 10px;
 border: none;
+margin-left: 10px;
 }
 input{
     border: none;
@@ -17,4 +18,8 @@ input{
 }
 .grey{
     color: gray;
+}
+.form-select{
+    width: 50px;
+    padding: 4px;
 }
