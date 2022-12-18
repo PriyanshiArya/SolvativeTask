@@ -4,6 +4,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Challenge</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/lipis/flag-icons@6.6.6/css/flag-icons.min.css"/>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.2/font/bootstrap-icons.css" integrity="sha384-b6lVK+yci+bfDmaY1u0zE8YYJt0TZxLEAFyYSLHId4xoVvsrQu3INevFKo+Xir8e" crossorigin="anonymous">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
     <link rel="stylesheet" href="style.css">
@@ -34,64 +35,98 @@
               <tr>
                 <th scope="row">1</th>
                 <td>Delhi</td>
-                <td> <img class="w-25" src="./images/india-flag.jpg" alt=""> India</td>
+                <td> <span class="fi fi-in m-lg-1"></span>India</td>
                 <td></td>
               </tr>
               <tr>
                 <th scope="row">2</th>
                 <td>Copenhagen</td>
-                <td>Denmark</td>
+                <td><span class="fi fi-dk m-lg-1"></span>Denmark</td>
                 <td></td>
               </tr>
               <tr>
                 <th scope="row">3</th>
                 <td >Kansas City</td>
-                <td>US</td>
+                <td><span class="fi fi-us m-lg-1"></span>US</td>
                 <td></td>
               </tr>
               <tr>
                 <th scope="row">4</th>
                 <td>Paris</td>
-                <td>France</td>
+                <td><span class="fi fi-fr m-lg-1"></span>France</td>
                 <td></td>
               </tr>
               <tr>
                 <th scope="row">5</th>
                 <td>Berlin </td>
-                <td>Germany</td>
+                <td><span class="fi fi-de m-lg-1"></span>Germany</td>
                 <td></td>
               </tr><tr>
                 <th scope="row">6</th>
                 <td>Rome</td>
-                <td>Italy</td>
+                <td><span class="fi fi-it m-lg-1"></span>Italy</td>
                 <td></td>
               </tr>
               <tr>
                 <th scope="row">7</th>
                 <td>Amsterdam</td>
-                <td>Netherlands</td>
+                <td><span class="fi fi-nl m-lg-1"></span>Netherlands</td>
                 <td></td>
               </tr>
               <tr>
                 <th scope="row">8</th>
                 <td>Warsaw</td>
-                <td>Poland</td>
+                <td><span class="fi fi-pl m-lg-1"></span>Poland</td>
                 <td></td>
               </tr>
               <tr>
                 <th scope="row">9</th>
                 <td>Lisbon</td>
-                <td>Portuga</td>
+                <td><span class="fi fi-pt m-lg-1"></span>Portugal</td>
                 <td></td>
               </tr>
               <tr>
                 <th scope="row">10</th>
                 <td>London</td>
-                <td>UK</td>
+                <td><span class="fi fi-gb m-lg-1"></span>UK</td>
                 <td></td>
               </tr>
             </tbody>
           </table>
+          <div class="row">
+            <div class="col-sm-8 ">
+                <div class="row mt-3">
+                    <div class="col-sm-4">
+                        <h6>Go to page <input type="text" class="w-25" ></h6>
+                    </div>
+                    <div class="col-sm-8 d-flex text-end ">
+                        <h6 class="mt-1 m-lg-1">Show</h6> <select class="form-select w-25 " aria-label="Default select example">
+                            <option selected>10</option>
+                            <option value="1">1</option>
+                            <option value="2">2</option>
+                            <option value="3">3</option>
+                            <option value="4">4</option>
+                            <option value="5">5</option>
+                            <option value="6">6</option>
+                            <option value="7">7</option>
+                            <option value="8">8</option>
+                            <option value="9">9</option>
+                            <option value="10">10</option>
+
+                          </select> <h6 class="mt-1 m-lg-1">Entries per page</h6>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-4   d-flex text-end">
+                <button class="number-btn m-lg-2">1</button>
+                <button class="number-btn m-lg-2">2</button>
+                <button class="number-btn m-lg-2">3</button>
+                <button class="number-btn m-lg-2">4</button>
+                <button class="number-btn m-lg-2">5</button>
+                <p class="mt-0 h2">...</p>
+                <button class="number-btn m-lg-2">10</button>
+            </div>
+          </div>
     </div>
   </body>
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
